@@ -1,0 +1,71 @@
+Starting out:
+All HTML docs must have <!DOCTYPE html> at the beginning.
+<meta charset="utf-8"> — The character set, typically set to UTF-8 to help describe how the page is formatted.
+<html></html> — The container or document root for the HTML document.
+<style> — The style element can contain CSS code that will be applied to the HTML. Typically it's better to keep CSS in an external stylesheet. (filename.css)
+<link></link> — The link element connects other files to an HTML document, such as CSS or JavaScript files.
+
+Common HTML tags:
+<title></title> — The title of the document typically appears in browser tabs and search engine results.
+<head></head> — code inside here will not be visible to the site visitor. It’s used for CSS, etc., and is a container for meta information.
+<body></body> — contains the content and remaining structure of the document.
+<header></header> — The header element helps to structure the content. This is different from the head element, which is just for document metadata.
+<section></section> — Sections break up logical groupings of information, just like sections of a newspaper.
+<footer></footer> — The footer element is a complement to the header element. It represents the bottom of a content area.
+<h2></h2> — The second level headline element, similar to first level headlines <h1>. Typically these appear slightly smaller by default.
+<p></p> — The paragraph element should contain text in sentence or paragraph form.
+<img> — The image element is a self closing element with two required attributes. The source (src) attribute points to the image file and the alternate (alt) attribute describes the image using text.
+
+Common CSS Selectors:
+Type Selector - Also known as an "element selector" this CSS selector that isolates all the elements of a given type.
+
+Descendent Selector - CSS selector that selects all the elements of a given type that are nested inside another type of element.
+Class Selector - Selects any HTML element that contains a matching class attribute.
+:nth-child(An+B) - The nth-child pseudo-class matches A(n)+B-1 siblings in the document tree. The A value that precedes n is required. By itself, this will match every "nth" element in a group. Both A and B must be integers.
+
+CSS Properties:
+color - Sets the text color of an element. Accepts any CSS color unit.
+
+background-color - Sets the background color of an element. Accepts any CSS color unit.
+max-width - Sets the maximum width of an element. Accepts any CSS length unit.
+
+margin - Sets the space around the exterior four sides of an element. Accepts any CSS length unit.
+
+padding - Sets the space on the interior four sides of an element. Accepts any CSS length unit.
+font-family - Defines which fonts should be applied to text.
+font-size - Sets the size of text in either relative or absolute units.
+
+font-weight - Sets the visual weight of text, which is more commonly known as "bold" as is the case in word processors.
+
+line-height - Set the amount of space between each line of text. Accepts any CSS length unit.
+list-style - Sets the style of numbers or bullet points for ordered and unordered lists. The marks can also be removed entirely with the value "none".
+float - Allows an element to be taken out of the normal flow and placed to the left or right of its container. Text and other inline elements will wrap around it.
+clear - The clear property specifies whether an element can be adjacent to floated elements or if it should be moved down and "clear" any floated elements.
+background-image - Accepts an image path that applies the file to the background of an element.
+
+background-size - Sets the size of background images.
+background-repeat - Sets whether or not a background image should be repeated. By default, backgrounds will repeat.
+
+CSS Syntax
+@media CSS rule to define conditions of the browser medium. In other words, it allows for CSS styling to only be included if certain conditions are met, such as a specific browser width.
+
+Keyboard Shortcuts:
+Indent Lines:
+     CTRL + [ or CTRL + ] (Windows)
+     CMD + [ or CMD + ] (Mac)
+
+Vocabulary:
+Relative Path - Describes the location of a file using a partial file path that's based on the location of the original file relative to the file that's being referenced.
+Absolute Path - Describes the location of a file using the full file path.
+CSS - Cascading Style Sheets, the computer code that defines the visual presentation of web pages.
+Rule - The entirety of a CSS selector and its declarations.
+Selector - CSS syntax that defines elements on a page to which declarations should be applied.
+Declaration - Pairs of CSS properties and values that define how an element should be styled.
+Property - CSS syntax that defines which part of an element should be styled, such as its color, size, position, and so on.
+Value - CSS syntax that sets the variable units for properties.
+SFTP - SSH File Transfer Protocol (also known as Secure File Transfer Protocol) is a network protocol that allows for the transfer of files to a web server.
+Breakpoints - The specific screen widths where a responsive layout "breaks" and needs to change in order to accommodate the screen.
+
+Resources:
+Google Fonts - A 3rd party font service from Google that provides a large library of fonts that are legitmately licensed. All of the fonts are available for free.
+CSS Layout Techniques - Learn more about CSS layout properties like float, clear, position, and more.
